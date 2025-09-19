@@ -1,11 +1,17 @@
 {
-  "name": "notes-app",
+  "name": "note-automati",
   "version": "1.0.0",
+  "description": "Een simpele notes API die draait op Render",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "joprauer",
+  "license": "MIT"
 }
